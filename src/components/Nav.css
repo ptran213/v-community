@@ -1,0 +1,56 @@
+/* .logo {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+} */
+
+.nav {
+  display: flex;
+  background-color: #FFD3D3;
+  height: 70px;
+}
+
+.logo-name {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-right: auto;
+  color: #FF1919;
+  transform: skewX(-0.07turn);
+  transition-duration: 1s;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 2rem;
+}
+
+.logo-name:hover {
+  color: white;
+  background-color: #FF1919;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.5rem;
+
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-right: auto;
+  color: #FF1919;
+  transform: skewX(-0.07turn);
+  transition-duration: 1s;
+  text-decoration: none;
+  padding: 15px 13px;
+}
+
+li:hover {
+  color: white;
+  background-color: #FF1919;
+}
